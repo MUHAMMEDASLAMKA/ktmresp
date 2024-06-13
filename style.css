@@ -1,0 +1,322 @@
+@font-face {
+    font-family:blender probold;
+    src: url(fonts/fonnts.com-Blender_Pro_Bold.ttf);
+  
+}
+@font-face {
+    font-family: blender proheavy;
+    src: url(fonts/fonnts.com-Blender_Pro_Heavy.ttf);
+}
+@font-face {
+    font-family: trade gothic;
+    src: url(fonts/trade-gothic-lt-std-58a78e64434a9.otf);
+}
+.nav-item{
+    text-transform: uppercase;
+    font-family: blender probold;
+    font-size: 20px;
+    margin-left: 25px;
+    color: #fff;
+
+}
+@media (max-width: 768px) {
+    .ktm-logo {
+      width: 90px;
+      height: 90px;
+    }
+ 
+  }
+
+  @media(max-width: 1300px){
+    .marker{
+        display: none;
+    }
+  }
+  .head-tag{
+    color: #fff
+  }
+  .banner-img{
+    margin-top: 60px;
+    width: 95%;
+    
+}
+.ktm-configurator{
+    font-family: blender probold;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+.configure-the-bike{
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    font-size: 84.5px;
+    
+    
+}
+.configurator-text{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    transition-duration: 500ms;
+    color: #fff;
+    align-items: center;
+    top: 125px
+    
+}
+@media(max-width: 1000px){
+     .ktm-configurator{
+        font-size: 50px;
+    }
+    .configure-the-bike{
+        font-size: 50px;
+    }
+}
+@media(max-width: 650px){
+    .ktm-configurator{
+       font-size: 30px;
+       color: black;
+       margin-top: 100px;
+      
+       
+   }
+   .configure-the-bike{
+       font-size: 30px;
+       color: black;
+       
+   }
+}
+@media(max-width: 380px){
+    .ktm-configurator{
+       font-size: 15px;
+       color: black;
+       margin-top: 40px;     
+       
+   }
+   .configure-the-bike{
+       font-size: 15px;
+       color: black;
+       
+   }
+}
+.block-tag{
+    font-size: 18px;
+    font-family: blender probold;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.bike-model{
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    font-size: 33px;
+    margin-top: 5px;
+}
+@media(max-width:608px){
+    .main-card{
+        margin-top: 140px;
+    }
+}
+@media(max-width:380px){
+    .main-card{
+        margin-top:50px ;
+    }
+}
+.bike-container{
+    margin-top: 50px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+.block-two-content{
+    font-size: 18px;
+    font-family:trade gothic;
+    line-height: 33px;
+    margin-top: 23px;
+
+}
+.image-container-text{
+    position: absolute;
+    z-index: 20;
+   margin-top: 250px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.never-stop{
+    font-size: 24px;
+    color: #fff;
+    font-family: blender probold;
+    
+    
+
+}
+.ktm-rc{
+    color: #fff;
+    font-family: blender proheavy;
+    font-size: 87px;
+    
+}  
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width: 820px){
+    .ktm-rc{
+        font-size: 65px
+    }
+}
+@media(max-width: 550px){
+    .ktm-rc{
+        font-size: 40px
+    }
+}
+@media(max-width: 550px){
+    .never-stop{
+        font-size: 18px
+    }
+}
+.race-text{
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    font-size: 84.5px;
+
+}
+.btn-explore{
+    background-color: rgb(222, 88, 11);
+    border-radius: 0;
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+    border: 1px solid rgb(222, 88, 11);
+    font-weight: 600;
+}
+.btn-explore:hover{
+    background-color: transparent;
+    border-color: rgb(222, 88, 11);
+}
+.race-text{
+    color:#fff
+}
+@media(max-width: 1150px){
+    .race-text{
+        font-size: 65px;
+    }
+}
+@media(max-width: 750px){
+    .race-text{
+        font-size: 40px;
+    }
+}
+@media(max-width: 500px){
+    .race-text{
+        font-size: 30px;
+        color: black;
+        margin-top: 400px;
+    }
+}
+@media(max-width: 500px){
+    .btn-explore{
+        font-size: 12px;
+      
+     
+    }
+}
+.brief{
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-size: 13.5px;
+    font-family: trade gothic;
+    line-height: 25.5px;
+    margin-top: 70px;
+}
+@media(max-width: 800px){
+    .brief{
+        font-size: 9px;
+        line-height: 15px;
+    }
+}
+@media(max-width: 500px){
+    .brief{
+        font-size: 7px;
+        line-height: 15px;
+        margin-top: 160px;
+    }
+    .btn-explore:hover{
+        color: black;
+    }
+}
+@media(max-width: 400px){
+    .brief{
+        font-size: 5px;
+        line-height: 12px;
+    }
+  
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 100px;
+    margin-top: 55px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-main{
+    display: flex;
+    flex-direction: column;
+}
+.footer-heading{
+    font-size: 24px;
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: text;
+}
+.footer-words{
+    font-size: 18px;
+    font-family: trade gothic;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.footer-heading-one{
+    font-size: 24px;
+    font-family: blender proheavy;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: text;
+}
+.footer-words:hover{
+    color:rgb(255, 102, 0)
+}
+@media(max-width: 1000px){
+    .footer-words{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-heading{
+        margin-top: 50px;
+    }
+    .social-icons{
+        margin-top: 50px;
+    }
+    svg{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
